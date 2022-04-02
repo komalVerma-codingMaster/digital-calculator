@@ -1,0 +1,108 @@
+@import url(//db.onlinewebfonts.com/c/58045dabdc3a361cb9bb9faf2f1dd1f3?family=Digital-7);
+
+*
+{
+     margin: 0;
+     padding: 0;
+}
+
+html, body
+{}
+
+.main
+{
+     display: block;
+     border: 35px double black;
+     border-radius: 0px 100px 100px 0px;
+     height: 750px;
+     width: 500px;
+     margin: auto;
+     margin-top: 75px;
+}
+
+.basic-cal
+{
+     height: 380px;
+     width: 380px;
+     margin-left: 3rem;
+     margin-top: 3.5rem;
+     display: flex;
+     flex-direction: column;
+}
+
+.btns
+{
+     background-color: rgb(255, 255, 255);
+     padding-top: 1.65rem;
+     padding-bottom: 1.65rem;
+     font-size: 2.5rem;
+     border: 0.5px solid black;
+     border-radius: 5px;
+     font-family: 'Digital-7';
+}
+
+.btns:hover
+{
+     background-color: rgb(224, 224, 224);
+     border: 0.5px solid black;
+}
+
+.btns-clicked
+{
+     background-color: white;
+}
+
+.screenSect
+{
+     display: block;
+}
+
+.majorSect
+{
+     display: grid;
+     max-width: 500px;
+     grid-template-columns: repeat(4, 95px);
+     grid-gap: 8px;
+     margin-top: 10px;
+}
+
+.screen
+{
+     height: 100px;
+     width: 385px;
+     margin-left: auto;
+     margin-bottom: 1.5rem;
+     padding-left: 1vw;
+     font-family: 'Digital-7';
+     font-size: 64px;
+     border: none;
+     border-bottom: thick solid black;
+     border-radius: 5px;
+     background: #ebebeb;
+}
+
+.operatorsButton
+{
+     padding-top: 1.25rem;
+     padding-bottom: 1.25rem;
+     font-size: 3rem;
+}
+
+#one
+{
+     padding-right: 0.75rem;
+}
+
+#dot
+{
+     padding-top: 0rem;
+     padding-bottom: 2rem;
+}
+
+#backspace
+{
+     font-size: 2rem;
+}
+
+/*.screen:focus
+{}*/
